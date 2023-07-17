@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className + "h-full bg-wam"}>
+      <body className={inter.className + " h-screen bg-wam"}>
         <Provider store={store}>
           {children}
         </Provider>

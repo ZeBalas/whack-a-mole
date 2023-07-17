@@ -8,7 +8,7 @@ export default function Play() {
     const finished = useAppSelector(state => state.game.finished);
 
     return (
-        <div className="flex flex-col p-10 gap-36 h-screen cursor-mallet">
+        <div className="flex flex-col p-10 gap-36 h-screen">
             <GameArea />
             {finished && <LeaderboardInput />}
         </div>

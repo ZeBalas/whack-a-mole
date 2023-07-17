@@ -18,3 +18,8 @@
     margin-bottom: 2.5rem/* 40px */;
 }
 
+*,
+*:before,
+*:after {
+  @apply cursor-mallet !important;
+}
